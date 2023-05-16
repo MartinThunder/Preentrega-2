@@ -15,19 +15,34 @@
   font-family: monospace;
 }
 body {
-  background-color: #000000;
-  background-image: linear-gradient,
-    (43deg, #000000 0%, #5053c8 46%, #fffefc 100%);
-  background-repeat: no repeat;
+  background-color: #080808;
+  background-image: linear-gradient(160deg, #080808 0%, #808cd0 100%);
+  background-repeat: no-repeat;
+}
+image {
+  width: 100%;
+}
+.int {
+  display: flex;
+  justify-content: space around;
+  flex-wrap: wrap;
+  transition: 2s;
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+
   img {
     width: 120px;
   }
+}
+int div {
+  margin-bottom: 10px;
+}
+.int div:hover {
+  transform: scale(1.1);
 }
 .ul-header {
   display: flex;
@@ -180,7 +195,7 @@ li {
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%;
+    width: 100%;
   }
 
   to {
