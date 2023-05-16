@@ -17,6 +17,12 @@
   font-family: monospace;
 }
 
+body {
+  background-color: #000000;
+  background-image: linear-gradient, 43deg, #000000 0%, #5053c8 46%, #fffefc 100%;
+  background-repeat: no repeat;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -173,4 +179,37 @@ li {
 .ancho maximo {
   width: 850px;
   margin: auto;
+}
+
+.rectangulo {
+  height: 100px;
+  width: 300px;
+  background-color: #226fd3;
+}
+
+.rectangulo:hover {
+  transform: scale(1.09);
+  background-color: #710dec;
+  transition: 1.2s;
+  border-radius: 30px;
+}
+
+.p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+p {
+  color: #845f09;
+  font-size: medium;
 }/*# sourceMappingURL=main.css.map */
