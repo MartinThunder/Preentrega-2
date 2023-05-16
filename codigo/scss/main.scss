@@ -22,7 +22,7 @@ body {
 image {
   width: 100%;
 }
-.int {
+int {
   display: flex;
   justify-content: space around;
   flex-wrap: wrap;
@@ -41,10 +41,10 @@ image {
 int div {
   margin-bottom: 10px;
 }
-.int div:hover {
+int div:hover {
   transform: scale(1.1);
 }
-.ul-header {
+ul-header {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
